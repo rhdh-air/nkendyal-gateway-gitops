@@ -1,0 +1,15 @@
+app:
+  name: nkendyal-poi-gateway-app
+  namespace: nkendyal
+  cluster: .apps.r9m8ttn9.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-air/nkendyal-gateway
+  org: rhdh-air
+  name: nkendyal-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: nkendyal/poi-gateway-app
+  tag: latest
